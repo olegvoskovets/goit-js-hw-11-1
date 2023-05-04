@@ -1,4 +1,4 @@
-export default function drawCard(card) {
+export default function createCard(card) {
   return `
    
      <a href="${card.largeImageURL}" >

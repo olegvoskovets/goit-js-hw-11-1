@@ -6,6 +6,11 @@
   display: flex;
   position: fixed;
 }
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
 .search-form {
   position: relative;
   margin: auto auto;
